@@ -2,7 +2,7 @@
   "name": "node-resume",
   "version": "0.0.1",
   "description": "node markdown resume",
-  "main": "index.js",
+  "main": "./bin/nresume.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,12 +16,14 @@
     "resume"
   ],
   "author": "cnchanning",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/cnchanning/node-resume/issues"
   },
   "homepage": "https://github.com/cnchanning/node-resume",
   "devDependencies": {
-    "commander": "^2.6.0"
+    "colorful": "^2.1.0",
+    "commander": "^2.6.0",
+    "q": "^1.1.2"
   }
 }
