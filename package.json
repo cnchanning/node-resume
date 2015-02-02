@@ -21,9 +21,15 @@
     "url": "https://github.com/cnchanning/node-resume/issues"
   },
   "homepage": "https://github.com/cnchanning/node-resume",
-  "devDependencies": {
+  "dependencies": {
     "colorful": "^2.1.0",
     "commander": "^2.6.0",
     "q": "^1.1.2"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "chai-as-promised": "^4.1.1",
+    "mocha": "^2.1.0",
+    "mocha-lcov-reporter": "0.0.1"
   }
 }
